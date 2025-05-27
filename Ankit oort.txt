@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankit Dhua - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ankit Dhua</h1>
+      <p>UID: 22BCS1234 | AI & Java Developer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>🧑‍💻 About Me</h2>
+    <p>Hi! I'm Ankit Dhua, a Computer Science student with a passion for building AI-powered apps, Java-based tools, and innovative tech projects that make life easier and smarter.</p>
+  </section>
+
+  <section id="skills">
+    <h2>🛠️ Skills</h2>
+    <ul class="skills-list">
+      <li>Java + OOP</li>
+      <li>Python for AI</li>
+      <li>HTML, CSS & JS</li>
+      <li>Git & GitHub</li>
+      <li>Firebase</li>
+      <li>Arduino + IoT</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>🚀 Projects</h2>
+    <div class="project">
+      <h3>AI Chessboard</h3>
+      <p>Smart chessboard that detects wrong moves and suggests AI moves using sensors and custom logic (No OpenCV).</p>
+    </div>
+    <div class="project">
+      <h3>Student Result Portal</h3>
+      <p>Java application to manage and generate student results with PDF export feature.</p>
+    </div>
+    <div class="project">
+      <h3>Personal AI Chatbot</h3>
+      <p>A basic AI chatbot built using Python and integrated with voice recognition.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="confirmationMsg"></p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Ankit Dhua | © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
